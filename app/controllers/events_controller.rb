@@ -1,7 +1,11 @@
 class EventsController < ApplicationController
+  require 'httparty'
+
   def create
-    if request.content_type =~ /json/ && JSON.parse(request.body.read) != nil
-      data = JSON.parse(request.body.read)
+    url = 'https://blockchain.info/ticker'
+    request = HTTParty.get(url)
+    if request.content_type =~ /json/ && request.body != nil
+      data = JSON.parse(request.body)
       data.each do |currency, value|
         event = Event.where(currency: currency).first_or_create
         rate = ExchangeRate.create(event: event,
