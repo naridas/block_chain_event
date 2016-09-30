@@ -14,15 +14,21 @@ Whenever, VCR, Webmock, shoulda-matchers, httparty
 #### To run the server on your local machine:
 
 Download or clone the repo
+
 Run `$ bundle install`
+
 Create the database with `$ rake db:create`
+
 And migrate `$ rake db:migrate`
+
 Create cron jobs using whenever gem `$ whenever --update-crontab`
+
 Run `$ rails s` to start the server
 
 ### Test
 
 Run tests using:
+
 `$ rspec`
 
 ### Work Done
@@ -36,11 +42,15 @@ TDDing my geckoboard controller but having problems since want to iteriate throu
 ### Struggles
 
 Currently with the geckoboard dataset api since getting weird errors.
+
 Http stubbing took some time until I used VCR which made it a lot simpler to stub them.
+
 Trying to create a method for the intervals with no result so I used whenever gem
 
 ### Next steps
 
 Get my geckoboard controller working then create widgets
-Create a test for my whenever.
+
+Create a test for my whenever schedule.rb.
+
 Refactor my code 
