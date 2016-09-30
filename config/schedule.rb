@@ -2,9 +2,10 @@
 #
 # It's helpful, but not entirely necessary to understand cron before proceeding.
 # http://en.wikipedia.org/wiki/Cron
-# every 15.minute do # Many shortcuts available: :hour, :day, :month, :year, :reboot
-#   command
-# end
+
+every 15.minute do # Many shortcuts available: :hour, :day, :month, :year, :reboot
+  command "curl -X POST http://localhost:3000/events"
+end
 # Example:
 #
 # set :output, "/path/to/my/cron_log.log"
