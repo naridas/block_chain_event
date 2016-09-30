@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://blockchain.info/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 29 Sep 2016 21:34:39 GMT
+      Content-Type:
+      - application/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d4edac665ae437885b2ba98768ccc30a71475184879; expires=Fri, 29-Sep-17
+        21:34:39 GMT; path=/; domain=.blockchain.info; HttpOnly
+      Content-Language:
+      - en
+      Content-Security-Policy:
+      - 'img-src ''self'' data: https://blockchain.info; style-src ''self'' ''unsafe-inline'';
+        frame-src ''none''; child-src ''none''; script-src ''self''; connect-src ''self''
+        *.blockchain.info wss://*.blockchain.info https://blockchain.info; object-src
+        ''none''; media-src ''none''; font-src ''none'';'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - HIT
+      Expires:
+      - Thu, 29 Sep 2016 21:35:09 GMT
+      Cache-Control:
+      - public, max-age=30
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2ea28f784c7734ac-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        CnsKICAiVVNEIiA6IHsiMTVtIiA6IDYwNC44NiwgImxhc3QiIDogNjA0Ljg2
+        LCAiYnV5IiA6IDYwNC44MiwgInNlbGwiIDogNjA0Ljg2LCAgInN5bWJvbCIg
+        OiAiJCJ9LAogICJJU0siIDogeyIxNW0iIDogNjkwODIuNjMsICJsYXN0IiA6
+        IDY5MDgyLjYzLCAiYnV5IiA6IDY5MDc4LjA2LCAic2VsbCIgOiA2OTA4Mi42
+        MywgICJzeW1ib2wiIDogImtyIn0sCiAgIkhLRCIgOiB7IjE1bSIgOiA0Njkw
+        LjQ4LCAibGFzdCIgOiA0NjkwLjQ4LCAiYnV5IiA6IDQ2OTAuMTcsICJzZWxs
+        IiA6IDQ2OTAuNDgsICAic3ltYm9sIiA6ICIkIn0sCiAgIlRXRCIgOiB7IjE1
+        bSIgOiAxODk5OS4wNSwgImxhc3QiIDogMTg5OTkuMDUsICJidXkiIDogMTg5
+        OTcuOCwgInNlbGwiIDogMTg5OTkuMDUsICAic3ltYm9sIiA6ICJOVCQifSwK
+        ICAiQ0hGIiA6IHsiMTVtIiA6IDU4Ny42NiwgImxhc3QiIDogNTg3LjY2LCAi
+        YnV5IiA6IDU4Ny42MiwgInNlbGwiIDogNTg3LjY2LCAgInN5bWJvbCIgOiAi
+        Q0hGIn0sCiAgIkVVUiIgOiB7IjE1bSIgOiA1MzkuOSwgImxhc3QiIDogNTM5
+        LjksICJidXkiIDogNTM5Ljg2LCAic2VsbCIgOiA1MzkuOSwgICJzeW1ib2wi
+        IDogIuKCrCJ9LAogICJES0siIDogeyIxNW0iIDogNDAyMC44NSwgImxhc3Qi
+        IDogNDAyMC44NSwgImJ1eSIgOiA0MDIwLjU5LCAic2VsbCIgOiA0MDIwLjg1
+        LCAgInN5bWJvbCIgOiAia3IifSwKICAiQ0xQIiA6IHsiMTVtIiA6IDQwMDU3
+        OC41OCwgImxhc3QiIDogNDAwNTc4LjU4LCAiYnV5IiA6IDQwMDU1Mi4wOSwg
+        InNlbGwiIDogNDAwNTc4LjU4LCAgInN5bWJvbCIgOiAiJCJ9LAogICJDQUQi
+        IDogeyIxNW0iIDogODAwLjcsICJsYXN0IiA6IDgwMC43LCAiYnV5IiA6IDgw
+        MC42NSwgInNlbGwiIDogODAwLjcsICAic3ltYm9sIiA6ICIkIn0sCiAgIkNO
+        WSIgOiB7IjE1bSIgOiA0MDMzLjI5LCAibGFzdCIgOiA0MDMzLjI5LCAiYnV5
+        IiA6IDQwMzMuMDMsICJzZWxsIiA6IDQwMzMuMjksICAic3ltYm9sIiA6ICLC
+        pSJ9LAogICJUSEIiIDogeyIxNW0iIDogMjA5MzUuMTgsICJsYXN0IiA6IDIw
+        OTM1LjE4LCAiYnV5IiA6IDIwOTMzLjgsICJzZWxsIiA6IDIwOTM1LjE4LCAg
+        InN5bWJvbCIgOiAi4Li/In0sCiAgIkFVRCIgOiB7IjE1bSIgOiA3ODkuOTYs
+        ICJsYXN0IiA6IDc4OS45NiwgImJ1eSIgOiA3ODkuOSwgInNlbGwiIDogNzg5
+        Ljk2LCAgInN5bWJvbCIgOiAiJCJ9LAogICJTR0QiIDogeyIxNW0iIDogODIz
+        LjE5LCAibGFzdCIgOiA4MjMuMTksICJidXkiIDogODIzLjE0LCAic2VsbCIg
+        OiA4MjMuMTksICAic3ltYm9sIiA6ICIkIn0sCiAgIktSVyIgOiB7IjE1bSIg
+        OiA2NjU5ODAuMDksICJsYXN0IiA6IDY2NTk4MC4wOSwgImJ1eSIgOiA2NjU5
+        MzYuMDUsICJzZWxsIiA6IDY2NTk4MC4wOSwgICJzeW1ib2wiIDogIuKCqSJ9
+        LAogICJKUFkiIDogeyIxNW0iIDogNjA3NTguMTksICJsYXN0IiA6IDYwNzU4
+        LjE5LCAiYnV5IiA6IDYwNzU0LjE3LCAic2VsbCIgOiA2MDc1OC4xOSwgICJz
+        eW1ib2wiIDogIsKlIn0sCiAgIlBMTiIgOiB7IjE1bSIgOiAyMzEyLjYzLCAi
+        bGFzdCIgOiAyMzEyLjYzLCAiYnV5IiA6IDIzMTIuNDgsICJzZWxsIiA6IDIz
+        MTIuNjMsICAic3ltYm9sIiA6ICJ6xYIifSwKICAiR0JQIiA6IHsiMTVtIiA6
+        IDQ2NS40NSwgImxhc3QiIDogNDY1LjQ1LCAiYnV5IiA6IDQ2NS40MiwgInNl
+        bGwiIDogNDY1LjQ1LCAgInN5bWJvbCIgOiAiwqMifSwKICAiU0VLIiA6IHsi
+        MTVtIiA6IDUyMDMuOTcsICJsYXN0IiA6IDUyMDMuOTcsICJidXkiIDogNTIw
+        My42MiwgInNlbGwiIDogNTIwMy45NywgICJzeW1ib2wiIDogImtyIn0sCiAg
+        Ik5aRCIgOiB7IjE1bSIgOiA4MjkuNjksICJsYXN0IiA6IDgyOS42OSwgImJ1
+        eSIgOiA4MjkuNjMsICJzZWxsIiA6IDgyOS42OSwgICJzeW1ib2wiIDogIiQi
+        fSwKICAiQlJMIiA6IHsiMTVtIiA6IDE5NTkuOTksICJsYXN0IiA6IDE5NTku
+        OTksICJidXkiIDogMTk1OS44NiwgInNlbGwiIDogMTk1OS45OSwgICJzeW1i
+        b2wiIDogIlIkIn0sCiAgIlJVQiIgOiB7IjE1bSIgOiAzODcwNS44MSwgImxh
+        c3QiIDogMzg3MDUuODEsICJidXkiIDogMzg3MDMuMjUsICJzZWxsIiA6IDM4
+        NzA1LjgxLCAgInN5bWJvbCIgOiAiUlVCIn0KICAKfQ==
+    http_version:
+  recorded_at: Thu, 29 Sep 2016 21:34:24 GMT
+recorded_with: VCR 3.0.3

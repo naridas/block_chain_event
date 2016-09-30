@@ -34,15 +34,20 @@ group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'rspec-collection_matchers'
+  gem 'vcr'
   gem 'webmock'
   gem 'factory_girl_rails'
   gem 'coveralls', require: false
   gem 'shoulda-matchers'
+  gem 'whenever-test'
 end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'httparty'
   gem 'byebug', platform: :mri
+  gem 'geckoboard-ruby'
+  gem 'whenever', :require => false
 end
 
 group :development do

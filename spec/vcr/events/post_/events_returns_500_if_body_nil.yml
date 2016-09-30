@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://blockchain.info/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 29 Sep 2016 21:34:39 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=df3af9491b4d68fa076450631a10d02b51475184879; expires=Fri, 29-Sep-17
+        21:34:39 GMT; path=/; domain=.blockchain.info; HttpOnly
+      Content-Language:
+      - en
+      Content-Security-Policy:
+      - 'img-src ''self'' data: https://blockchain.info; style-src ''self'' ''unsafe-inline'';
+        frame-src ''none''; child-src ''none''; script-src ''self''; connect-src ''self''
+        *.blockchain.info wss://*.blockchain.info https://blockchain.info; object-src
+        ''none''; media-src ''none''; font-src ''none'';'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - HIT
+      Expires:
+      - Thu, 29 Sep 2016 21:35:09 GMT
+      Cache-Control:
+      - public, max-age=30
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2ea28f7abbc91389-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: ""
+    http_version:
+  recorded_at: Thu, 29 Sep 2016 21:34:24 GMT
+recorded_with: VCR 3.0.3

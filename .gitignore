@@ -19,9 +19,6 @@
 
 .DS_Store
 coverage/**/*
-.rubocop.yml
-disabled.yml
-enabled.yml
 CoverallsRakefile
 analysis/**/*
 .gitignore-analysis
