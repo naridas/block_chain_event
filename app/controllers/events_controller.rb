@@ -1,7 +1,5 @@
 class EventsController < ApplicationController
   require 'httparty'
-  # require 'geckoboard'
-  # client = Geckoboard.client(ENV["GECKO"])
 
   def create
     url = 'https://blockchain.info/ticker'
