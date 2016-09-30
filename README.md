@@ -1,6 +1,6 @@
 # block_chain_event
 
-A simple web app designed to get a payload  https://blockchain.info/ticker, store it in a database, and then send it to geckoboard dataset api.
+A simple web app designed to get a payload  https://blockchain.info/ticker, store it in a database, and then send it to geckoboard dataset api.  No dashboard link since didn't get the time to make a widget.
 
 ### Usage
 
